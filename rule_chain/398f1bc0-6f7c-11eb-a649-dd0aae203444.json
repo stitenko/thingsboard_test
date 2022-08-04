@@ -5,7 +5,10 @@
     "configuration" : null,
     "createdTime" : 1613386489724,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "398f1bc0-6f7c-11eb-a649-dd0aae203444"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "39a032c0-6f7c-11eb-a649-dd0aae203444"
@@ -125,7 +128,7 @@
         "layoutY" : 789
       },
       "configuration" : {
-        "integrationId" : "09cb5640-43c2-11ec-ae0c-bbe8b7534016"
+        "integrationId" : "39545cb0-6f7c-11eb-a649-dd0aae203444"
       },
       "createdTime" : 0,
       "debugMode" : false,
@@ -216,7 +219,7 @@
         "msgCount" : 1,
         "periodInSeconds" : 6000,
         "jsScript" : "var msg = { temperature: +(Math.random()*100 +10) };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "originatorId" : "b1d588f0-c497-11ec-9326-ad8278896f52",
+        "originatorId" : "39545cb0-6f7c-11eb-a649-dd0aae203444",
         "originatorType" : "DEVICE"
       },
       "createdTime" : 0,
@@ -239,7 +242,7 @@
         "msgCount" : 0,
         "periodInSeconds" : 60,
         "jsScript" : "var msg = { temperature: +(Math.random()*200 +20) };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "originatorId" : "b41343f0-c497-11ec-a4f9-0187e80e2af1",
+        "originatorId" : "39545cb0-6f7c-11eb-a649-dd0aae203444",
         "originatorType" : "DEVICE"
       },
       "createdTime" : 0,
@@ -302,7 +305,7 @@
         "msgCount" : 1,
         "periodInSeconds" : 6000,
         "jsScript" : "var msg = { temperature: +(Math.random()*10 +1) };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "originatorId" : "af55e2f0-c497-11ec-b1e1-7501e4528144",
+        "originatorId" : "39545cb0-6f7c-11eb-a649-dd0aae203444",
         "originatorType" : "DEVICE"
       },
       "createdTime" : 0,
